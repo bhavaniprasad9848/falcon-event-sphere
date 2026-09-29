@@ -1,0 +1,14 @@
+{
+  "name": "falcon-event-sphere",
+  "private": true,
+  "description": "Campus event discovery platform with AI-powered recommendations (React + Node.js + MongoDB)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build"
+  },
+  "license": "MIT"
+}
